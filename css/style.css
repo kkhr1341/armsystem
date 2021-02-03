@@ -769,7 +769,7 @@
     width: 345px;
     float: left;
     margin-right: 26px;
-    background-color: #aebcd2;
+    background-color: #cedcc2;
   }
   .top_sc2 .service_list > li:last-child {
     margin-right: 0;
@@ -786,7 +786,7 @@
   .top_sc2 .service_list > li h3 span {
     font-size: 18px;
     display: block;
-    color: #202253;
+    color: #3cb232;
   }
   .top_sc2 .service_list > li h3 a {
     display: block;
@@ -813,7 +813,7 @@
     min-height: 150px;
   }
   .top_sc2 .service_list > li .service_detail_list > li {
-    color: #1f214e;
+    color: #1b8222;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -999,7 +999,7 @@
     width: 100%;
   }
   .slider_works .works_list_tl .wroks_tl {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 15px;
     position: relative;
     display: inline-block;
@@ -1012,7 +1012,7 @@
     left: 0;
     height: 2px;
     width: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .slider_works .works_list_tl .wroks_tl:hover:after {
@@ -1207,8 +1207,8 @@
     font-size: 24px;
     font-weight: bold;
     font-family: serif;
-    color: #202253;
-    background: -webkit-linear-gradient(-45deg, #4e65a7, #31325a, #202253, #dfdfdf, #4e65a7, #31325a, #202253, #dfdfdf, #4e65a7, #31325a, #202253, #dfdfdf);
+    color: #3cb232;
+    background: -webkit-linear-gradient(-45deg, #4cb242, #3c9232, #3cb232, #dfdfdf, #4cb242, #3c9232, #3cb232, #dfdfdf, #4cb242, #3c9232, #3cb232, #dfdfdf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -1245,7 +1245,7 @@
     position: absolute;
     top: 56%;
     left: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     z-index: 100;
   }
   .top_sc5 .article_prev a {
@@ -1275,7 +1275,7 @@
     position: absolute;
     top: 56%;
     right: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     z-index: 100;
   }
   .top_sc5 .article_next a {
@@ -1303,7 +1303,7 @@
     margin-bottom: 37px;
     background-color: #fff;
     padding: 6px 6px 8px;
-    border: 4px solid #3cb232;
+    border: 4px solid #1b811b;
     line-height: 1;
   }
   .top_sc5 .category img {
@@ -1311,7 +1311,7 @@
     width: auto;
   }
   .top_sc5 .category:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .top_sc5 .tl_h3 {
     margin-bottom: 40px;
@@ -1333,7 +1333,7 @@
   }
   .top_sc5 .tl_h3 {
     font-size: 20px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .top_sc5 .date {
     position: absolute;
@@ -1361,10 +1361,10 @@
     margin-bottom: 42px;
     font-size: 14px;
     line-height: 24px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .top_sc5 .article_lsit a.txt {
-    color: #3cb232;
+    color: #1b811b;
   }
   .top_sc5 .article_lsit a.txt:hover {
     text-decoration: underline;
@@ -1389,7 +1389,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #3cb232;
+    background-color: #1b811b;
     opacity: 0.2;
     transition: all 6 cubic-bezier(0.83, 0, 0.06, 1);
   }
@@ -1540,7 +1540,7 @@
     padding-right: 150px;
     margin-right: -50px;
     position: relative;
-    color: #202253;
+    color: #3cb232;
     font-size: 27px;
     line-height: 0.5;
     font-family: serif;
@@ -1566,7 +1566,7 @@
     display: inline-block;
     height: 1px;
     width: 90px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .btn .arrow:after {
@@ -1576,7 +1576,7 @@
     content: "";
     width: 15px;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transform: rotate(50deg);
   }
   .btn_contact:hover {
@@ -1761,7 +1761,7 @@
     content: "";
   }
   .topice_path li a {
-    color: #3cb232;
+    color: #1b811b;
   }
   .topice_path li a:hover {
     text-decoration: underline;
@@ -1955,7 +1955,7 @@
     display: none;
   }
   .order_input_table {
-    color: #3cb232;
+    color: #1b811b;
     width: 100%;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
     margin-bottom: 100px;
@@ -1970,7 +1970,7 @@
     padding-top: 10px;
     font-size: 16px;
     padding-bottom: 50px;
-    color: #3cb232;
+    color: #1b811b;
     line-height: 27px;
   }
   .order_input_table textarea {
@@ -1979,7 +1979,7 @@
     width: 100%;
     height: 300px;
     background-color: #eceff4;
-    color: #3cb232;
+    color: #1b811b;
   }
   .order_input_table input,
   .order_input_table textarea {
@@ -2012,7 +2012,7 @@
     position: absolute;
     top: 10px;
     right: 110px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     padding: 2px 10px;
   }
@@ -2027,7 +2027,7 @@
   }
   .order_input_table input {
     background-color: #eceff4;
-    color: #3cb232;
+    color: #1b811b;
     padding-left: 20px;
     box-sizing: border-box;
     border: none;
@@ -2036,7 +2036,7 @@
   }
   .order_input_table input:focus {
     background-color: #d9dfea;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 16px;
   }
   .order_input_table input::-webkit-input-placeholder {
@@ -2111,7 +2111,7 @@
     text-align: center;
   }
   .consent_box1 a {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
   .consent_box1 a:hover {
@@ -2127,7 +2127,7 @@
     padding-bottom: 200px;
   }
   .btn_confirm {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 350px;
     height: 60px;
@@ -2146,7 +2146,7 @@
     background-color: #a9b6cc;
   }
   .btn_send {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 350px;
     height: 60px;
@@ -2157,7 +2157,7 @@
     background-color: #a9b6cc;
   }
   .btn_window {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 350px;
     height: 60px;
@@ -2168,7 +2168,7 @@
     background-color: #a9b6cc;
   }
   .btn_back {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 350px;
     height: 60px;
@@ -2196,10 +2196,10 @@
     position: relative;
     font-size: 15px;
     font-weight: 400;
-    color: #3cb232;
+    color: #1b811b;
   }
   .checkbox01-parts a {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
   .checkbox01-parts a:hover {
@@ -2220,7 +2220,7 @@
     left: 0;
     width: 15px;
     height: 15px;
-    border: 2px solid #3cb232;
+    border: 2px solid #1b811b;
     background-color: #fff;
   }
   .checkbox01-input:checked + .checkbox01-parts::after {
@@ -2344,7 +2344,7 @@
     width: 0;
     height: 0;
     pointer-events: none;
-    border-top: 10px solid #3cb232;
+    border-top: 10px solid #1b811b;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid transparent;
@@ -2377,10 +2377,10 @@
     position: relative;
     margin-right: 20px;
     font-size: 14px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .radio01-parts:hover {
-    color: #3cb232;
+    color: #1b811b;
   }
   .radio01-parts::before {
     content: "";
@@ -2395,7 +2395,7 @@
     background-color: #fff;
   }
   .radio01-input:checked + .radio01-parts::before {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .radio01-input:checked + .radio01-parts::after {
     content: "";
@@ -2467,7 +2467,7 @@
     width: 100%;
     height: 100%;
     display: inline-block;
-    color: #3cb232;
+    color: #1b811b;
   }
   .cate_nav_inner {
     width: 1100px;
@@ -2508,13 +2508,13 @@
   }
   .cate_nav_inner .cate_nav_list li.current span,
   .cate_nav_inner .cate_nav_list li:hover span {
-    color: #3cb232;
+    color: #1b811b;
   }
   .cate_nav_inner .cate_nav_list li.current span:before,
   .cate_nav_inner .cate_nav_list li:hover span:before {
     width: 100%;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .cate_nav_inner .cate_nav_list li:first-child {
     border-left: 1px solid #a4adbc;
@@ -2543,17 +2543,17 @@
   }
   .aboutus_sc1 .tl_h2 {
     margin-bottom: 50px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .aboutus_sc1 .h2_txt {
-    color: #202253;
+    color: #3cb232;
     font-size: 28px;
     line-height: 40px;
     margin-bottom: 50px;
   }
   .aboutus_sc1 .txt_box {
     font-size: 15px;
-    color: #202253;
+    color: #3cb232;
     line-height: 28px;
     width: 555px;
     margin-bottom: 55px;
@@ -2580,7 +2580,7 @@
   }
   .aboutus_sc2 .h2_txt {
     float: right;
-    color: #202253;
+    color: #3cb232;
     font-size: 28px;
     line-height: 40px;
     margin-bottom: 55px;
@@ -2590,7 +2590,7 @@
   .aboutus_sc2 .txt_box {
     float: right;
     font-size: 15px;
-    color: #202253;
+    color: #3cb232;
     line-height: 28px;
     width: 700px;
     margin-bottom: 55px;
@@ -2626,7 +2626,7 @@
   }
   .aboutus_sc3 .h2_txt {
     float: left;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 28px;
     line-height: 44px;
     text-align: left;
@@ -2635,7 +2635,7 @@
   .aboutus_sc3 .txt_box {
     float: left;
     font-size: 15px;
-    color: #3cb232;
+    color: #1b811b;
     line-height: 28px;
     width: 700px;
     margin-bottom: 55px;
@@ -2681,14 +2681,14 @@
     font-size: 26px;
     letter-spacing: 2px;
     text-align: center;
-    color: #3cb232;
+    color: #1b811b;
   }
   .aboutus_sc4 .tl_h2 img {
     width: 236px;
   }
   .aboutus_sc4 .txt_box {
     font-size: 15px;
-    color: #202253;
+    color: #3cb232;
     line-height: 28px;
     margin-bottom: 55px;
     text-align: center;
@@ -2721,7 +2721,7 @@
   }
   .aboutus_sc5 .h2_txt {
     float: left;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 28px;
     line-height: 40px;
     text-align: left;
@@ -2732,7 +2732,7 @@
     float: left;
     padding-left: 84px;
     font-size: 15px;
-    color: #3cb232;
+    color: #1b811b;
     line-height: 30px;
     width: 1000px;
     margin-bottom: 55px;
@@ -2768,13 +2768,13 @@
     float: left;
     width: 50%;
     box-sizing: border-box;
-    border-left: 1px solid #3cb232;
+    border-left: 1px solid #1b811b;
   }
   .aboutus_sc6 .box_right {
     float: right;
     width: 50%;
     box-sizing: border-box;
-    border-left: 1px solid #3cb232;
+    border-left: 1px solid #1b811b;
   }
   .aboutus_sc6 table {
     margin-left: 30px;
@@ -3259,7 +3259,7 @@
     font-size: 13px;
   }
   .works_list li .project_name a {
-    color: #3cb232;
+    color: #1b811b;
     position: relative;
   }
   .works_list li .project_name a:after {
@@ -3270,7 +3270,7 @@
     margin-left: -50%;
     width: 0%;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .works_list li .project_name a:hover:after {
@@ -3321,7 +3321,7 @@
     position: relative;
     width: 675px;
     vertical-align: middle;
-    color: #3cb232;
+    color: #1b811b;
     text-align: center;
   }
   .works_box_pager .pager_cell .pager_list li {
@@ -3331,7 +3331,7 @@
     line-height: 34px;
   }
   .works_box_pager .pager_cell .pager_list li a {
-    color: #3cb232;
+    color: #1b811b;
     position: relative;
     box-sizing: border-box;
   }
@@ -3502,11 +3502,11 @@
     padding: 9px 5px 5px;
     min-width: 30px;
     height: 30px;
-    color: #3cb232;
+    color: #1b811b;
     background-color: #eaeaea;
   }
   .works_box_pager .pager_cell .pager_list li a.num:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     text-decoration: none;
   }
@@ -3529,7 +3529,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 20px;
     width: 600px;
   }
@@ -3662,7 +3662,7 @@
   }
   .works_item td {
     font-size: 13px;
-    color: #3cb232;
+    color: #1b811b;
     padding-right: 30px;
   }
   .works_detail_pager {
@@ -3683,7 +3683,7 @@
     text-align: center;
   }
   .works_detail_pager .works_detail_pager_inner .back_list a {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 20px;
     position: relative;
   }
@@ -3695,7 +3695,7 @@
     margin-left: -50%;
     width: 0%;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .works_detail_pager .works_detail_pager_inner .back_list a:hover:after {
@@ -3729,7 +3729,7 @@
     margin-right: -5px;
   }
   .works_detail_pager .works_detail_pager_inner .next_arrow:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .works_detail_pager .works_detail_pager_inner .prev_arrow {
     display: block;
@@ -3759,7 +3759,7 @@
     margin-left: -5px;
   }
   .works_detail_pager .works_detail_pager_inner .prev_arrow:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .works_detail_pager .prev_img {
     display: block;
@@ -3767,7 +3767,7 @@
     position: absolute;
     top: 18px;
     left: 70px;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 12px;
   }
   .works_detail_pager .prev_img img {
@@ -3786,7 +3786,7 @@
     position: absolute;
     top: 18px;
     right: 70px;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 12px;
     text-align: right;
   }
@@ -3854,10 +3854,10 @@
     line-height: 27px;
   }
   .privacy_contact a {
-    color: #3cb232;
+    color: #1b811b;
   }
   .privacy_contact a:hover {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
 }
@@ -4282,7 +4282,7 @@
   }
   .gnav_list li:nth-child(7) a {
     position: relative;
-    color: #3cb232;
+    color: #1b811b;
   }
   .gnav_list li:nth-child(7) a img {
     height: 15px;
@@ -4301,7 +4301,7 @@
   }
   .gnav_list li:nth-child(8) a {
     position: relative;
-    color: #3cb232;
+    color: #1b811b;
   }
   .gnav_list li:nth-child(8) a img {
     height: 15px;
@@ -4523,7 +4523,7 @@
     line-height: 28px;
     margin-bottom: 26px;
     text-align: center;
-    color: #202253;
+    color: #3cb232;
   }
   .top_sc1 .img_box {
     margin: 0 auto;
@@ -4595,7 +4595,7 @@
   }
   .top_sc2 .service_list > li h3 {
     padding: 16px 0 13px;
-    background-color: #aebcd2;
+    background-color: #cedcc2;
     text-align: center;
     color: #4a525f;
     font-weight: 400;
@@ -4644,7 +4644,7 @@
     font-size: 0;
   }
   .top_sc2 .service_list > li .service_detail_list > li {
-    color: #202253;
+    color: #3cb232;
     font-size: 13px;
     margin-bottom: 10px;
     padding-left: 0;
@@ -4832,7 +4832,7 @@
     letter-spacing: 0.5px;
   }
   .top_sc3 .slider_works .works_list_tl .wroks_tl {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 15px;
     margin-bottom: 20px;
     position: relative;
@@ -5004,7 +5004,7 @@
     background-color: #fff;
     opacity: 0.9;
     z-index: 100;
-    color: #202253;
+    color: #3cb232;
     font-size: 13px;
     writing-mode: vertical-lr;
     transform: rotateZ(180deg);
@@ -5054,7 +5054,7 @@
     margin-bottom: 30px;
     background-color: #fff;
     padding: 2px 6px 5px;
-    border: 2px solid #3cb232;
+    border: 2px solid #1b811b;
     line-height: 0.8;
   }
   .top_sc5 .category img {
@@ -5062,12 +5062,12 @@
     width: auto;
   }
   .top_sc5 .category:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .top_sc5 .tl_h3 {
     font-size: 16px;
     line-height: 22px;
-    color: #3cb232;
+    color: #1b811b;
     margin-bottom: 40px;
   }
   .top_sc5 .date {
@@ -5106,10 +5106,10 @@
     width: 89.4%;
     font-size: 14px;
     line-height: 24px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .top_sc5 .article_lsit a.txt {
-    color: #3cb232;
+    color: #1b811b;
   }
   .top_sc5 .article_lsit a.txt:hover {
     text-decoration: underline;
@@ -5133,7 +5133,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #3cb232;
+    background-color: #1b811b;
     opacity: 0.2;
     transition: all 0.8s cubic-bezier(0.83, 0, 0.06, 1);
   }
@@ -5147,7 +5147,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     z-index: 100;
   }
   .top_sc5 .article_prev a {
@@ -5177,7 +5177,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     z-index: 100;
   }
   .top_sc5 .article_next a {
@@ -5275,7 +5275,7 @@
     margin-bottom: 120px;
   }
   footer {
-    background-color: #3cb232;
+    background-color: #1b811b;
     width: 100%;
   }
   .footer_contact {
@@ -5370,7 +5370,7 @@
     display: inline-block;
     height: 1px;
     width: 90px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.8s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .btn .arrow:after {
@@ -5380,7 +5380,7 @@
     content: "";
     width: 15px;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transform: rotate(50deg);
   }
   .btn_contact {
@@ -5447,7 +5447,7 @@
     padding-right: 150px;
     margin-right: -50px;
     position: relative;
-    color: #202253;
+    color: #3cb232;
   }
   .btn img {
     height: 14px;
@@ -5580,7 +5580,7 @@
     content: "";
   }
   .topice_path li a {
-    color: #3cb232;
+    color: #1b811b;
   }
   .btn_close {
     display: none;
@@ -5672,15 +5672,15 @@
     padding-top: 3px;
   }
   .nav_sns_list .icon_tw {
-    fill: #3cb232;
+    fill: #1b811b;
     width: 24px;
     height: 20px;
   }
   .nav_sns_list .icon_fb {
-    fill: #3cb232;
+    fill: #1b811b;
   }
   .nav_sns_list #icon_in {
-    fill: #3cb232;
+    fill: #1b811b;
     width: 24px;
     height: 24px;
   }
@@ -5740,7 +5740,7 @@
     display: none;
   }
   .order_input_table {
-    color: #3cb232;
+    color: #1b811b;
     width: 100%;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
     margin-bottom: 10px;
@@ -5754,14 +5754,14 @@
   .order_input_table.conf td {
     font-size: 16px;
     line-height: 27px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .order_input_table textarea {
     border: none;
     width: 100%;
     height: 200px;
     background-color: #eceff4;
-    color: #3cb232;
+    color: #1b811b;
     padding: 15px;
   }
   .order_input_table input,
@@ -5804,7 +5804,7 @@
     position: absolute;
     top: 10px;
     left: 0;
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     padding: 2px 10px;
   }
@@ -5819,7 +5819,7 @@
   }
   .order_input_table input {
     background-color: #eceff4;
-    color: #3cb232;
+    color: #1b811b;
     padding-left: 20px;
     border: none;
     border-radius: 0;
@@ -5827,7 +5827,7 @@
   }
   .order_input_table input:focus {
     background-color: #d9dfea;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 16px;
   }
   .order_input_table input::-webkit-input-placeholder {
@@ -5903,7 +5903,7 @@
     padding-bottom: 50px;
   }
   .btn_confirm {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 70%;
     height: 60px;
@@ -5918,7 +5918,7 @@
     background-color: #d1d1d1;
   }
   .btn_send {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 48%;
     height: 60px;
@@ -5927,7 +5927,7 @@
     float: left;
   }
   .btn_back {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 48%;
     height: 60px;
@@ -5937,7 +5937,7 @@
     float: left;
   }
   .btn_window {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     width: 70%;
     height: 60px;
@@ -5957,11 +5957,11 @@
     font-size: 14px;
   }
   .consent_box1 a {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
   .consent_box1 a:hover {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: none;
   }
   .consent_box2 {
@@ -5981,10 +5981,10 @@
     font-size: 14px;
     font-weight: 400;
     padding-top: 3px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .checkbox01-parts a {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
   .checkbox01-parts a:hover {
@@ -6005,7 +6005,7 @@
     left: 0;
     width: 15px;
     height: 15px;
-    border: 2px solid #3cb232;
+    border: 2px solid #1b811b;
     background-color: #fff;
   }
   .checkbox01-input:checked + .checkbox01-parts::after {
@@ -6042,10 +6042,10 @@
     position: relative;
     margin-right: 20px;
     font-size: 16px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .radio01-parts:hover {
-    color: #3cb232;
+    color: #1b811b;
   }
   .radio01-parts::before {
     content: "";
@@ -6055,12 +6055,12 @@
     left: 0;
     width: 16px;
     height: 16px;
-    border: 1px solid #3cb232;
+    border: 1px solid #1b811b;
     border-radius: 50%;
     background-color: #fff;
   }
   .radio01-input:checked + .radio01-parts::before {
-    background-color: #3cb232;
+    background-color: #1b811b;
   }
   .radio01-input:checked + .radio01-parts::after {
     content: "";
@@ -6115,7 +6115,7 @@
     width: 0;
     height: 0;
     pointer-events: none;
-    border-top: 10px solid #3cb232;
+    border-top: 10px solid #1b811b;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid transparent;
@@ -6223,7 +6223,7 @@
     line-height: 24px;
     width: 89.6%;
     margin: 0 auto 25px;
-    color: #3cb232;
+    color: #1b811b;
     text-align: center;
   }
   .aboutus_sc1 .img_box {
@@ -6293,7 +6293,7 @@
     line-height: 24px;
     width: 89.6%;
     margin: 0 auto 25px;
-    color: #3cb232;
+    color: #1b811b;
     text-align: center;
   }
   .aboutus_sc2 .img_box {
@@ -6357,7 +6357,7 @@
     line-height: 24px;
     width: 89.6%;
     margin: 0 auto 25px;
-    color: #3cb232;
+    color: #1b811b;
     text-align: center;
   }
   .aboutus_sc3 .img_box {
@@ -6377,7 +6377,7 @@
   .aboutus_sc4 .tl_h2 {
     margin-bottom: 32px;
     text-align: center;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 20px;
     font-weight: 400;
   }
@@ -6387,7 +6387,7 @@
   }
   .aboutus_sc4 .txt_box {
     font-size: 14px;
-    color: #3cb232;
+    color: #1b811b;
     width: 89.6%;
     margin: 0 auto;
     line-height: 26px;
@@ -6418,7 +6418,7 @@
     width: auto;
   }
   .aboutus_sc5 .h2_txt {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 28px;
     line-height: 40px;
     text-align: left;
@@ -6426,7 +6426,7 @@
   }
   .aboutus_sc5 .txt_box {
     font-size: 14px;
-    color: #3cb232;
+    color: #1b811b;
     line-height: 26px;
     text-align: center;
     position: relative;
@@ -6960,7 +6960,7 @@
     padding: 0 3.2%;
   }
   .works_list li .project_name a {
-    color: #3cb232;
+    color: #1b811b;
     position: relative;
     font-size: 14px;
   }
@@ -6972,7 +6972,7 @@
     margin-left: -50%;
     width: 0%;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.8s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .works_list li .project_name a:hover:after {
@@ -7010,7 +7010,7 @@
     padding: 0 3.2%;
   }
   .works_detail_works .wroks_tl {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 17px;
     text-align: center;
     margin-bottom: 15px;
@@ -7137,7 +7137,7 @@
   }
   .works_item td {
     font-size: 13px;
-    color: #3cb232;
+    color: #1b811b;
   }
   .works_detail_pager .works_detail_pager_inner {
     width: 100%;
@@ -7154,7 +7154,7 @@
     text-align: center;
   }
   .works_detail_pager .works_detail_pager_inner .back_list a {
-    color: #3cb232;
+    color: #1b811b;
     font-size: 17px;
     position: relative;
   }
@@ -7166,14 +7166,14 @@
     margin-left: -50%;
     width: 100%;
     height: 1px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     transition: all 0.8s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .works_detail_pager .works_detail_pager_inner .next_arrow {
     display: block;
     width: 45px;
     height: 45px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     position: absolute;
     top: 65px;
     right: 0;
@@ -7197,14 +7197,14 @@
     position: absolute;
     bottom: -17px;
     left: 0;
-    color: #3cb232;
+    color: #1b811b;
     font-weight: 700;
   }
   .works_detail_pager .works_detail_pager_inner .prev_arrow {
     display: block;
     width: 45px;
     height: 45px;
-    background-color: #3cb232;
+    background-color: #1b811b;
     position: absolute;
     top: 65px;
     left: 0;
@@ -7215,7 +7215,7 @@
     position: absolute;
     bottom: -17px;
     right: 0;
-    color: #3cb232;
+    color: #1b811b;
     font-weight: 700;
   }
   .works_detail_pager .works_detail_pager_inner .prev_arrow:before {
@@ -7237,7 +7237,7 @@
     position: absolute;
     top: 18px;
     left: 70px;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 12px;
   }
   .works_detail_pager .prev_img img {
@@ -7256,7 +7256,7 @@
     position: absolute;
     top: 18px;
     right: 70px;
-    color: #3cb232;
+    color: #1b811b;
     font-size: 12px;
     text-align: right;
   }
@@ -7284,7 +7284,7 @@
     position: relative;
     width: 675px;
     vertical-align: middle;
-    color: #3cb232;
+    color: #1b811b;
     text-align: center;
   }
   .works_box_pager .pager_cell .pager_list li {
@@ -7299,7 +7299,7 @@
     font-size: 14px;
   }
   .works_box_pager .pager_cell .pager_list li a {
-    color: #3cb232;
+    color: #1b811b;
     position: relative;
     box-sizing: border-box;
   }
@@ -7317,7 +7317,7 @@
     border-bottom: 1px solid transparent;
   }
   .works_box_pager .pager_cell .pager_list li a.last_next:hover {
-    border-bottom: 1px solid #3cb232;
+    border-bottom: 1px solid #1b811b;
   }
   .works_box_pager .pager_cell .pager_list li a.last_next:after {
     font-size: 14px;
@@ -7329,8 +7329,8 @@
     top: 50%;
     left: -8px;
     margin-top: -8px;
-    border-top: 1px solid #3cb232;
-    border-left: 1px solid #3cb232;
+    border-top: 1px solid #1b811b;
+    border-left: 1px solid #1b811b;
     transform: rotate(135deg);
   }
   .works_box_pager .pager_cell .pager_list li a.last_next:before {
@@ -7343,8 +7343,8 @@
     top: 50%;
     left: 2px;
     margin-top: -7px;
-    border-top: 1px solid #3cb232;
-    border-left: 1px solid #3cb232;
+    border-top: 1px solid #1b811b;
+    border-left: 1px solid #1b811b;
     transform: rotate(135deg);
   }
   .works_box_pager .pager_cell .pager_list li a.top_prev {
@@ -7360,7 +7360,7 @@
     border-bottom: 1px solid transparent;
   }
   .works_box_pager .pager_cell .pager_list li a.top_prev:hover {
-    border-bottom: 1px solid #3cb232;
+    border-bottom: 1px solid #1b811b;
   }
   .works_box_pager .pager_cell .pager_list li a.top_prev:after {
     font-size: 14px;
@@ -7372,8 +7372,8 @@
     top: 50%;
     right: -8px;
     margin-top: -6px;
-    border-top: 1px solid #3cb232;
-    border-left: 1px solid #3cb232;
+    border-top: 1px solid #1b811b;
+    border-left: 1px solid #1b811b;
     transform: rotate(-45deg);
   }
   .works_box_pager .pager_cell .pager_list li a.top_prev:before {
@@ -7386,8 +7386,8 @@
     top: 50%;
     right: 2px;
     margin-top: -5px;
-    border-top: 1px solid #3cb232;
-    border-left: 1px solid #3cb232;
+    border-top: 1px solid #1b811b;
+    border-left: 1px solid #1b811b;
     transform: rotate(-45deg);
   }
   .works_box_pager .pager_cell .pager_list li a.prev {
@@ -7461,17 +7461,17 @@
     padding: 7px 5px;
     min-width: 30px;
     height: 30px;
-    color: #3cb232;
+    color: #1b811b;
     margin-bottom: 10px;
     background-color: #eaeaea;
   }
   .works_box_pager .pager_cell .pager_list li a.num:hover {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     text-decoration: none;
   }
   .works_box_pager .pager_cell .pager_list li a.num.is-current {
-    background-color: #3cb232;
+    background-color: #1b811b;
     color: #fff;
     text-decoration: none;
   }
@@ -7530,10 +7530,10 @@
     line-height: 27px;
   }
   .privacy_contact a {
-    color: #3cb232;
+    color: #1b811b;
   }
   .privacy_contact a:hover {
-    color: #3cb232;
+    color: #1b811b;
     text-decoration: underline;
   }
 }
@@ -7641,7 +7641,7 @@ html {
   font-size: 18px;
   line-height: 1.2;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
-  color: #202253;
+  color: #3cb232;
 }
 
 .f_opensans {
