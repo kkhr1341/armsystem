@@ -6401,7 +6401,7 @@ $(function () {
 
         canvas = document.getElementById("sineCanvas");
         canvas.width = document.documentElement.clientWidth; //Canvasのwidthをウィンドウの幅に合わせる
-        canvas.width = 3000;
+        canvas.width = 5000;
         canvas.height = 35;
 
         context = canvas.getContext("2d");
@@ -6437,7 +6437,7 @@ $(function () {
         // Update the time and draw again
         draw.seconds = draw.seconds + .009;
         draw.t = draw.seconds * Math.PI;
-        setTimeout(draw, 35);
+        setTimeout(draw, 55);
     };
     draw.seconds = 0;
     draw.t = 0;

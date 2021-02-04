@@ -105,6 +105,10 @@
   header.second.privacy .page_tl span {
     color: #fff;
   }
+  .tl_h1 {
+    background-color: #fffa;
+    min-height: 80px;
+  }
   .menu-trigger span {
     position: absolute;
     left: 0;
@@ -500,7 +504,6 @@
   .main_v_area_wrap {
     height: 100vh;
     width: 100%;
-    min-width: 1200px;
     position: relative;
   }
   .main_v_area_wrap.second {
@@ -621,7 +624,7 @@
     width: 100%;
     height: 100%;
     background: url(../img/top/movie_dots.png);
-    background-size: 3px;
+    background-size: 6px;
     z-index: 10;
   }
   .main_v_area .top_logo {
@@ -684,7 +687,7 @@
     bottom: 0;
     left: 0;
     height: 138px;
-    width: 3000px !important;
+    width: 5000px !important;
   }
   #canvas-container {
     position: absolute;
@@ -692,7 +695,7 @@
     left: 0;
     z-index: 12;
     height: 35px;
-    width: 3000px !important;
+    width: 5000px !important;
   }
   #canvas-container:before {
     position: absolute;
@@ -769,7 +772,7 @@
     width: 345px;
     float: left;
     margin-right: 26px;
-    background-color: #cedcc2;
+    background-color: #25671f;
   }
   .top_sc2 .service_list > li:last-child {
     margin-right: 0;
@@ -786,7 +789,7 @@
   .top_sc2 .service_list > li h3 span {
     font-size: 18px;
     display: block;
-    color: #3cb232;
+    color: #dee3de;
   }
   .top_sc2 .service_list > li h3 a {
     display: block;
@@ -813,7 +816,7 @@
     min-height: 150px;
   }
   .top_sc2 .service_list > li .service_detail_list > li {
-    color: #1b8222;
+    color: #dee3de;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1595,7 +1598,7 @@
   }
   footer {
     height: 300px;
-    background: url(../img/common/footer_bg_pc.jpg) #020102;
+    background: #25671f;
     background-size: 650px;
     background-position: right 20px center;
     background-repeat: no-repeat;
@@ -4421,7 +4424,7 @@
     width: 100%;
     height: 100%;
     background: url(../img/top/movie_dots.png);
-    background-size: 3px;
+    background-size: 6px;
     z-index: 10;
   }
   .main_v_area .top_logo {
@@ -5281,7 +5284,7 @@
     margin-bottom: 120px;
   }
   footer {
-    background-color: #1b811b;
+    background-color: #25671f;
     width: 100%;
   }
   .footer_contact {
@@ -5400,7 +5403,7 @@
     width: 140px;
   }
   footer {
-    background: url(../img/common/footer_bg_sp.jpg) #000;
+    background: #25671f;
     background-size: 100%;
     background-position: right top 20px;
     background-repeat: no-repeat;
