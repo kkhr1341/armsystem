@@ -66,6 +66,7 @@
   header.second.fixed {
     position: fixed;
     top: 0;
+    background: #fffa;
   }
   header.second .head_logo {
     position: absolute;
@@ -106,15 +107,17 @@
     color: #fff;
   }
   .tl_h1 {
-    background-color: #fffa;
     min-height: 80px;
+  }
+  header:not(.second) .tl_h1 {
+    background-color: #fffa;
   }
   .menu-trigger span {
     position: absolute;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
   }
   .contents_area {
     min-width: 1200px;
@@ -742,7 +745,7 @@
     width: 100%;
   }
   .top_sc2 {
-    background: url(../img/top/img/bg_service.jpg);
+    background: url(../img/arm/top_bgr001.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 1400px auto;
@@ -789,7 +792,7 @@
   .top_sc2 .service_list > li h3 span {
     font-size: 18px;
     display: block;
-    color: #dee3de;
+    color: #f4fff0;
   }
   .top_sc2 .service_list > li h3 a {
     display: block;
@@ -816,7 +819,7 @@
     min-height: 150px;
   }
   .top_sc2 .service_list > li .service_detail_list > li {
-    color: #dee3de;
+    color: #f4fff0;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
