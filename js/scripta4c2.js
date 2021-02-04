@@ -5702,7 +5702,7 @@ $(function () {
     console.log(ua.isTablet);
     if ($('#movie').size()) {
         //$("#video-background").remove();
-        $('.movie').append('<img class="pc_display" id="video-backgrounds" src="img/arm/IMG_5640.jpg">');
+        $('.movie').append('<img id="video-backgrounds" src="img/arm/IMG_5640.jpg">');
         $('#player').css({ minHeight: 800 });
     }
     if ($('#video-backgrounds').size()) {

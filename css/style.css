@@ -563,7 +563,7 @@
     background-color: #8699c4;
   }
   .main_v_area .movie img {
-    width: 100%;
+    width: 100vw;
   }
   .main_v_area .movie.about {
     background-size: cover;
@@ -3902,6 +3902,11 @@
     height: 34px;
     cursor: pointer;
   }
+  #video-backgrounds {
+    width: auto;
+    max-width: initial;
+    height: 100vh;
+  }
   header {
     position: absolute;
     top: 0;
@@ -4282,7 +4287,8 @@
   }
   .gnav_list li:nth-child(7) a {
     position: relative;
-    color: #1b811b;
+    color: #8ca0c1;
+    text-shadow: 1px 2px 3px #a08b8b;
   }
   .gnav_list li:nth-child(7) a img {
     height: 15px;
@@ -7538,6 +7544,12 @@
   }
 }
 
+#video-backgrounds {
+  width: auto;
+  max-width: initial;
+  min-height: 100vh;
+  min-width: 100vw;
+}
 .clearfix:after {
   content: ".";
   display: block;
@@ -7641,7 +7653,7 @@ html {
   font-size: 18px;
   line-height: 1.2;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
-  color: #3cb232;
+  color: #25671f;
 }
 
 .f_opensans {
