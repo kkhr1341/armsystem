@@ -102,15 +102,18 @@
                 <a href="about.html">会社概要</a>
               </li>
               <li class="gnav_list03">
-                <a href="company.html">工事事例</a>
+                <a href="company.html">事業内容</a>
               </li>
               <li class="gnav_list04">
-                <a href="works/index.html">採用情報</a>
+                <a href="works/index.html">工事事例</a>
               </li>
               <li class="gnav_list05">
-                <a href="recruit/index.html">講習のご案内</a>
+                <a href="recruit/index.html">採用情報</a>
               </li>
               <li class="gnav_list06">
+                <a href="contact.html">講習のご案内</a>
+              </li>
+              <li class="gnav_list07">
                 <a href="contact.html">お問い合わせ</a>
               </li>
             </ul>
@@ -166,36 +169,6 @@
         <div class="main_v_area">
           <div class="movie topmovie" id="movie">
             <div class="sp_display" id="player"></div>
-            <script src="https://www.youtube.com/iframe_api"></script>
-            <script>
-              var player_flag = false;
-              var player;
-              var movie = document.getElementById("player");
-
-              function onYouTubeIframeAPIReady() {
-                player = new YT.Player("player", {
-                  videoId: "QdUMf8MlLuE",
-                  playerVars: {
-                    playsinline: 1,
-                    playlist: "QdUMf8MlLuE",
-                    origin: location.protocol + "//" + location.hostname + "/",
-                    loop: 1,
-                    autoplay: 1,
-                    mute: 1,
-                    showinfo: 0,
-                    controls: 0,
-                    rel: 0,
-                  },
-                  events: {
-                    onReady: function (event) {
-                      player_flag = true;
-                      event.target.mute();
-                      event.target.playVideo();
-                    },
-                  },
-                });
-              }
-            </script>
           </div>
 
           <!-- メインタイトル＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ -->
@@ -203,27 +176,25 @@
             <h1 class="top_logo">
               <img src="img/top/top-logo.svg" alt="reglos" />
             </h1>
-            <p class="jp pc_display f_yumin"></p>
 
             <p class="jp pc_display f_yumin">
               <span class="first">
-                <span>そ</span>
-                <span>の</span>
-                <span>社</span>
-                <span>会</span>
-                <span>に</span>
-                <span>、</span>
+                <span>自</span>
+                <span>然</span>
+                <span>が</span>
+                <span>技</span>
+                <span>術</span>
+                <span>と</span>
               </span>
               <span class="sec">
-                <span>挑</span>
-                <span>戦</span>
-                <span>と</span>
-                <span>革</span>
-                <span>新</span>
+                <span>企</span>
+                <span>業</span>
                 <span>を</span>
+                <span>繋</span>
+                <span>ぐ</span>
               </span>
             </p>
-            <p class="en f_yumin">CHALLENGE & INNOVATION</p>
+            <p class="en f_yumin">NATURE & TECHNOLOGY</p>
             <div id="scroll_down">
               <a href="#content">
                 <span> </span>
