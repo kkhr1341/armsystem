@@ -5853,26 +5853,26 @@ $(function () {
 
 
     //実績一覧SP
-    if ($(window).width() > 768) {
-        var slider2 = $('.works_list_sp ul').bxSlider({
-            vertical: true,
-            slideWidth: 142,
-            slideMargin: 0,
-            speed: 1200,
-            pager: false,
-            controls: false,
-            infiniteLoop: true,
-            easing: 'ease-in-out',
-            touchEnabled: false,
-            nextText: ' ',
-            prevText: ' ',
-            //nextSelector: ".next_arrow",
-            //prevSelector: ".prev_arrow",
-            onSliderLoad: function (index) {
-                // write code here
-            },
-        });
-    }
+    // if ($(window).width() > 768) {
+    //     var slider2 = $('.works_list_sp ul').bxSlider({
+    //         vertical: true,
+    //         slideWidth: 142,
+    //         slideMargin: 0,
+    //         speed: 1200,
+    //         pager: false,
+    //         controls: false,
+    //         infiniteLoop: true,
+    //         easing: 'ease-in-out',
+    //         touchEnabled: false,
+    //         nextText: ' ',
+    //         prevText: ' ',
+    //         //nextSelector: ".next_arrow",
+    //         //prevSelector: ".prev_arrow",
+    //         onSliderLoad: function (index) {
+    //             // write code here
+    //         },
+    //     });
+    // }
 
 
     //コラム
@@ -6554,7 +6554,7 @@ $(function () {
         var tween31 = TweenMax.staggerTo(".top_sc3 .read_box", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween32 = TweenMax.staggerTo(".top_sc3 .txt_box", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween33 = TweenMax.staggerTo(".works_list_pc", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
-        var tween34 = TweenMax.staggerTo(".works_list_sp", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
+        // var tween34 = TweenMax.staggerTo(".works_list_sp", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween35 = TweenMax.staggerTo(".works_list_tl", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween36 = TweenMax.staggerTo(hairetu, 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut }, 0.05);
         var tween37 = TweenMax.staggerTo(hairetu2, 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.3 }, 0.05);
@@ -6595,7 +6595,7 @@ $(function () {
         var scene31 = new ScrollMagic.Scene({ triggerElement: ".top_sc3 .read_box", triggerHook: 'onEnter' }).setTween(tween31).addTo(controller);
         var scene32 = new ScrollMagic.Scene({ triggerElement: ".top_sc3 .txt_box", triggerHook: 'onEnter' }).setTween(tween32).addTo(controller);
         var scene33 = new ScrollMagic.Scene({ triggerElement: ".works_list_pc", triggerHook: 'onEnter' }).setTween(tween33).addTo(controller);
-        var scene34 = new ScrollMagic.Scene({ triggerElement: ".works_list_pc", triggerHook: 'onEnter' }).setTween(tween34).addTo(controller);
+        // var scene34 = new ScrollMagic.Scene({ triggerElement: ".works_list_pc", triggerHook: 'onEnter' }).setTween(tween34).addTo(controller);
         var scene35 = new ScrollMagic.Scene({ triggerElement: ".works_list_tl", triggerHook: 'onEnter' }).setTween(tween35).addTo(controller);
         var scene36 = new ScrollMagic.Scene({ triggerElement: ".client_list", triggerHook: 'onEnter' }).setTween(tween36).addTo(controller);
         var scene37 = new ScrollMagic.Scene({ triggerElement: ".client_list", triggerHook: 'onEnter' }).setTween(tween37).addTo(controller);

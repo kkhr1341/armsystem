@@ -108,9 +108,14 @@
   }
   .tl_h1 {
     min-height: 80px;
+    width: fit-content;
   }
-  header:not(.second) .tl_h1 {
+  header:not(.second) .header_inner {
     background-color: #fffa;
+  }
+  header:not(.second) .header_inner > div:not(.head_btn) a {
+    display: block;
+    width: fit-content;
   }
   .menu-trigger span {
     position: absolute;
@@ -801,7 +806,10 @@
     width: 100%;
   }
   .top_sc2 .service_list > li h3 a span {
+    line-height: 1.8em;
+    font-size: 1.3em;
     position: relative;
+    color: #afc2ab;
   }
   .top_sc2 .service_list > li h3 a span:before {
     content: "";
@@ -810,7 +818,7 @@
     left: 0;
     height: 2px;
     width: 0;
-    background-color: #2b2d6b;
+    background-color: #b0c1ab;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .top_sc2 .service_list > li .service_detail_list {
@@ -942,9 +950,6 @@
     position: absolute;
     top: 0;
     left: 28px;
-    background: url(../img/common/bg_workspc.png);
-    background-repeat: no-repeat;
-    background-size: 674px auto;
     width: 674px;
     height: 600px;
     padding: 23px 0;
@@ -959,9 +964,6 @@
     position: absolute;
     top: 195px;
     right: 110px;
-    background: url(../img/common/bg_workssp.png);
-    background-repeat: no-repeat;
-    background-size: 164px auto;
     width: 164px;
     height: 600px;
     padding: 39px 0;
@@ -1033,19 +1035,26 @@
     margin-bottom: 210px;
   }
   .client_list_wrap .client_list {
-    width: 1005px;
+    max-width: 1005px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 120px 120px;
+    gap: 10px;
   }
   .client_list_wrap .client_list li {
-    float: left;
-    margin-right: 27px;
-    margin-bottom: 18px;
+    position: relative;
+    background: #f4fff0;
   }
   .client_list_wrap .client_list li:nth-child(4n) {
     margin-right: 0;
   }
   .client_list_wrap .client_list li img {
-    width: 230px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .top_sc4 {
     background: url(../img/top/img/bg_staff.jpg);
@@ -2437,7 +2446,7 @@
     display: block;
     width: 275px;
     box-sizing: border-box;
-    border-right: 1px solid #4b5c9c;
+    border-right: 1px solid #25671f;
     height: 30px;
     text-align: center;
     position: relative;
@@ -2446,7 +2455,7 @@
     display: block;
     margin-top: -5%;
     font-size: 13px;
-    color: #292c88;
+    color: #25671f;
   }
   .page_nav_inner .page_nav_list li:before {
     content: "";
@@ -2455,7 +2464,7 @@
     bottom: -20px;
     width: 1px;
     height: 8px;
-    background-color: #4b5c9c;
+    background-color: #25671f;
     transition: all 0.6s cubic-bezier(0.83, 0, 0.06, 1);
   }
   .page_nav_inner .page_nav_list li:hover:before {
@@ -2467,7 +2476,7 @@
     color: #858379;
   }
   .page_nav_inner .page_nav_list li:first-child {
-    border-left: 1px solid #4b5c9c;
+    border-left: 1px solid #25671f;
   }
   .page_nav_inner .page_nav_list li a {
     width: 100%;
