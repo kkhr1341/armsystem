@@ -5815,10 +5815,10 @@ $(function () {
             //$("[ data-num = " + (oldIndex + 1) +" ]").removeClass("active");
             //$("[ data-num = " + (newIndex + 1) +" ]").addClass("active");
             slider3.goToNextSlide();
-            if (slider2) {
-                //slider2.goToSlide(newIndex, 'next');
-                slider2.goToNextSlide();
-            }
+            // if (slider2) {
+            //     //slider2.goToSlide(newIndex, 'next');
+            //     slider2.goToNextSlide();
+            // }
             return false;
         },
         onSlidePrev: function ($slideElement, oldIndex, newIndex) {
