@@ -14,6 +14,9 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   display: block;
   width: fit-content;
 }
+.gnav_list li {
+  width: fit-content;
+}
 
 @media screen and (min-width: 769px) {
   .css404 {
@@ -135,7 +138,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     background-color: #000;
   }
   .contents_area {
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     z-index: 100;
     position: relative;
@@ -2684,6 +2687,9 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .img_color_wrap {
     position: relative;
   }
+  .img_color_wrap img {
+    width: 100%;
+  }
   .img_color_wrap .img_color {
     position: absolute;
     top: 0;
@@ -4129,7 +4135,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     display: block;
   }
   .head_btn.disp span {
-    background-color: #fff;
+    background-color: #000;
   }
   .loading {
     width: 100%;
@@ -4498,13 +4504,8 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .sc_sp .jp {
     display: inline-block;
     width: 20px;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background: url(../img/top/img/h1_tl_mainv_sp%402x.png);
-    background-size: 20px auto;
-    background-repeat: no-repeat;
-    height: 340px;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.5em;
   }
   #canvas-container_wrap {
     position: absolute;
@@ -4600,18 +4601,15 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .top_sc2 .read_box p {
     position: relative;
-    margin-top: 30px;
     display: inline-block;
-    width: 102px;
-    height: 300px;
-    white-space: nowrap;
-    text-indent: 100%;
-    overflow: hidden;
-    background: url(../img/top/img/h2_tl_service_sp.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    text-indent: 1em;
     z-index: 100;
+    text-align: start;
+    font-size: 18px;
+    margin-top: 50px;
   }
   .top_sc2 .txt_box {
     font-size: 14px;
@@ -4628,40 +4626,24 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .top_sc2 .service_list > li h3 {
     padding: 16px 0 13px;
-    background-color: #cedcc2;
     text-align: center;
     color: #4a525f;
     font-weight: 400;
+    background-color: #25671f;
   }
   .top_sc2 .service_list > li h3 img {
     height: 28px;
     width: auto;
     margin-bottom: 8px;
   }
+  .top_sc2 .service_list > li h3 span {
+    font-size: 18px;
+    display: block;
+    color: #f4fff0;
+  }
   .top_sc2 .service_list > li h3 span.f_yumin {
-    text-indent: 100%;
-    overflow: hidden;
-    white-space: nowrap;
     font-size: 12px;
     display: block;
-  }
-  .top_sc2 .service_list > li h3 span.f_yumin.planning {
-    background: url(../img/top/service/ses_business_sp.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 12px;
-  }
-  .top_sc2 .service_list > li h3 span.f_yumin.marketing {
-    background: url(../img/top/service/web_create_sp.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 12px;
-  }
-  .top_sc2 .service_list > li h3 span.f_yumin.creative {
-    background: url(../img/top/service/development_sp.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 12px;
   }
   .top_sc2 .service_list > li h3 span.f_yumin.analytics {
     background: url(../img/top/service/stl_analytics_sp%402x.png);
@@ -4723,15 +4705,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     position: relative;
     margin-top: 20px;
     display: inline-block;
-    width: 102px;
-    height: 340px;
-    white-space: nowrap;
-    text-indent: 100%;
-    overflow: hidden;
-    background: url(../img/top/img/h2_tl_works_sp%402x.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    writing-mode: vertical-rl;
   }
   .top_sc3 .slider_works {
     width: 100%;
@@ -4813,9 +4787,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .top_sc3 .slider_works .works_list_pc {
     margin: 0 auto;
-    background: url(../img/common/bg_workspc.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
     width: 82%;
     padding: 3.1% 3.6% 18.2%;
   }
