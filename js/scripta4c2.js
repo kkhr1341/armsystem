@@ -3532,7 +3532,7 @@ $(function () {
  */
 ! function (t) {
     var e = {},
-        s = { mode: "horizontal", slideSelector: "", infiniteLoop: !0, hideControlOnEnd: !1, speed: 500, easing: null, slideMargin: 0, startSlide: 0, randomStart: !1, captions: !1, ticker: !1, tickerHover: !1, adaptiveHeight: !1, adaptiveHeightSpeed: 500, video: !1, useCSS: !0, preloadImages: "visible", responsive: !0, touchEnabled: !0, swipeThreshold: 50, oneToOneTouch: !0, preventDefaultSwipeX: !0, preventDefaultSwipeY: !1, pager: !0, pagerType: "full", pagerShortSeparator: " / ", pagerSelector: null, buildPager: null, pagerCustom: null, controls: !0, nextText: "Next", prevText: "Prev", nextSelector: null, prevSelector: null, autoControls: !1, startText: "Start", stopText: "Stop", autoControlsCombine: !1, autoControlsSelector: null, auto: !1, pause: 4e3, autoStart: !0, autoDirection: "next", autoHover: !1, autoDelay: 0, minSlides: 1, maxSlides: 1, moveSlides: 0, slideWidth: 0, onSliderLoad: function () { }, onSlideBefore: function () { }, onSlideAfter: function () { }, onSlideNext: function () { }, onSlidePrev: function () { } };
+        s = { mode: "horizontal", slideSelector: "", infiniteLoop: !0, hideControlOnEnd: !1, speed: 500, easing: null, slideMargin: 0, startSlide: 0, randomStart: !1, captions: !1, ticker: !1, tickerHover: !1, adaptiveHeight: !1, adaptiveHeightSpeed: 500, video: !1, useCSS: !0, preloadImages: "visible", responsive: !0, touchEnabled: !0, swipeThreshold: 50, oneToOneTouch: !0, preventDefaultSwipeX: !0, preventDefaultSwipeY: !1, pager: !0, pagerType: "full", pagerShortSeparator: " / ", pagerSelector: null, buildPager: null, pagerCustom: null, controls: !0, nextText: "Next", prevText: "Prev", nextSelector: null, prevSelector: null, autoControls: !1, startText: "Start", stopText: "Stop", autoControlsCombine: !1, autoControlsSelector: null, auto: !1, pause: 4e3, autoStart: !0, autoDirection: "next", autoHover: !1, autoDelay: 0, minSlides: 1, maxSlides: 1, moveSlides: 0, slideWidth: 0, onSliderLoad: function () { }, onSlideBefore: function () { }, onSlideAfter: function () { } };
     t.fn.bxSlider = function (n) {
         if (0 == this.length) return this;
         if (this.length > 1) return this.each(function () { t(this).bxSlider(n) }), this;
@@ -3732,7 +3732,7 @@ $(function () {
             };
         return r.goToSlide = function (e, i) {
             if (!o.working && o.active.index != e)
-                if (o.working = !0, o.oldIndex = o.active.index, o.active.index = 0 > e ? x() - 1 : e >= x() ? 0 : e, o.settings.onSlideBefore(o.children.eq(o.active.index), o.oldIndex, o.active.index), "next" == i ? o.settings.onSlideNext(o.children.eq(o.active.index), o.oldIndex, o.active.index) : "prev" == i && o.settings.onSlidePrev(o.children.eq(o.active.index), o.oldIndex, o.active.index), o.active.last = o.active.index >= x() - 1, o.settings.pager && I(o.active.index), o.settings.controls && W(), "fade" == o.settings.mode) o.settings.adaptiveHeight && o.viewport.height() != p() && o.viewport.animate({ height: p() }, o.settings.adaptiveHeightSpeed), o.children.filter(":visible").fadeOut(o.settings.speed).css({ zIndex: 0 }), o.children.eq(o.active.index).css("zIndex", 51).fadeIn(o.settings.speed, function () { t(this).css("zIndex", 50), D() });
+                if (o.working = !0, o.oldIndex = o.active.index, o.active.index = 0 > e ? x() - 1 : e >= x() ? 0 : e, o.settings.onSlideBefore(o.children.eq(o.active.index), o.oldIndex, o.active.index), o.active.last = o.active.index >= x() - 1, o.settings.pager && I(o.active.index), o.settings.controls && W(), "fade" == o.settings.mode) o.settings.adaptiveHeight && o.viewport.height() != p() && o.viewport.animate({ height: p() }, o.settings.adaptiveHeightSpeed), o.children.filter(":visible").fadeOut(o.settings.speed).css({ zIndex: 0 }), o.children.eq(o.active.index).css("zIndex", 51).fadeIn(o.settings.speed, function () { t(this).css("zIndex", 50), D() });
                 else {
                     o.settings.adaptiveHeight && o.viewport.height() != p() && o.viewport.animate({ height: p() }, o.settings.adaptiveHeightSpeed);
                     var s = 0,
@@ -5591,56 +5591,9 @@ ua.isMobile = (ua.isiPhone || ua.isiPod || (ua.isAndroid && ua.name.indexOf('mob
 /**
  * Created by hisanaga on 18/10/24.
  */
-$(function () {
-    var movieRatio = 16 / 9;
-    var movieRatio1 = 9 / 16;
-
-    function movieAdjust() {
-        var adjustWidth = $(window).width();
-        var adjustHeight = $(window).height();
-        if (adjustWidth <= 1100) {
-            adjustWidth = 1100;
-        }
-        if (adjustWidth / adjustHeight > movieRatio) {
-            //adjustWidth = adjustHeight * movieRatio;
-            $('#video-background').css({ width: (adjustWidth), height: (adjustWidth / movieRatio) });
-        } else {
-            $('#video-background').css({ width: (adjustHeight / movieRatio1), height: (adjustHeight) });
-            $('#video-background').css({ marginLeft: 0 });
-        }
-    }
-
-    function movieAdjust_sp() {
-        var adjustWidth = $(window).width();
-        var adjustHeight = $(window).height() * 0.4;
-        console.log(adjustWidth);
-        console.log(adjustHeight);
-        if (adjustWidth / adjustHeight > movieRatio) {
-            //adjustWidth = adjustHeight * movieRatio;
-            $('#video-background').css({ width: (adjustWidth), height: (adjustWidth / movieRatio) });
-            $('#video-background').css({ marginLeft: -(adjustHeight / movieRatio1) / 2 });
-        } else {
-            $('#video-background').css({ width: (adjustHeight / movieRatio1), height: (adjustHeight) });
-            $('#video-background').css({ marginLeft: -(adjustHeight / movieRatio1) / 2 });
-        }
-    }
-
-    $(window).on('load resize', function () {
-        if ($(window).width() >= 769) {
-            movieAdjust();
-        } else {
-            movieAdjust_sp();
-        }
-
-    });
-});
 /**
  * header
  */
-$(function () {
-
-
-});
 
 
 
@@ -5702,12 +5655,8 @@ $(function () {
     console.log(ua.isTablet);
     if ($('#movie').size()) {
         //$("#video-background").remove();
-        $('.movie').append('<img id="video-backgrounds" src="img/arm/IMG_5640.jpg">');
+        $('.movie').append('<video id="video-background" playsinline muted autoplay loop><source src="img/arm/mixkit-sunlight-crossing-the-branches-of-trees-1709.webm" type="video/webm"></video>');
         $('#player').css({ minHeight: 800 });
-    }
-    if ($('#video-backgrounds').size()) {
-        $('.movie').hide();
-        $('.movie').delay(700).fadeIn(500);
     }
 
 
@@ -5810,70 +5759,8 @@ $(function () {
         prevSelector: ".prev_arrow",
         onSliderLoad: function (index) {
             // write code here
-        },
-        onSlideNext: function ($slideElement, oldIndex, newIndex) {
-            //$("[ data-num = " + (oldIndex + 1) +" ]").removeClass("active");
-            //$("[ data-num = " + (newIndex + 1) +" ]").addClass("active");
-            slider3.goToNextSlide();
-            // if (slider2) {
-            //     //slider2.goToSlide(newIndex, 'next');
-            //     slider2.goToNextSlide();
-            // }
-            return false;
-        },
-        onSlidePrev: function ($slideElement, oldIndex, newIndex) {
-            //$("[ data-num = " + (oldIndex + 1) +" ]").removeClass("active");
-            //$("[ data-num = " + (newIndex + 1) +  " ]").addClass("active");
-            slider3.goToPrevSlide();
-            if (slider2) {
-                //slider2.goToSlide(newIndex, 'prev');
-                slider2.goToPrevSlide();
-            }
-            return false;
         }
     });
-
-    //実績一覧
-    var slider3 = $('.works_list_tl ul').bxSlider({
-        slideWidth: 618,
-        slideMargin: 0,
-        speed: 1000,
-        pager: false,
-        controls: true,
-        infiniteLoop: true,
-        easing: 'ease-in-out',
-        nextText: ' ',
-        prevText: ' ',
-        mode: 'vertical',
-        onSliderLoad: function (index) {
-            // write code here
-        },
-    });
-
-
-
-    //実績一覧SP
-    // if ($(window).width() > 768) {
-    //     var slider2 = $('.works_list_sp ul').bxSlider({
-    //         vertical: true,
-    //         slideWidth: 142,
-    //         slideMargin: 0,
-    //         speed: 1200,
-    //         pager: false,
-    //         controls: false,
-    //         infiniteLoop: true,
-    //         easing: 'ease-in-out',
-    //         touchEnabled: false,
-    //         nextText: ' ',
-    //         prevText: ' ',
-    //         //nextSelector: ".next_arrow",
-    //         //prevSelector: ".prev_arrow",
-    //         onSliderLoad: function (index) {
-    //             // write code here
-    //         },
-    //     });
-    // }
-
 
     //コラム
     var slider5 = $('.article_wrap_list').bxSlider({
