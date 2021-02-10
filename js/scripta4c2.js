@@ -5977,6 +5977,9 @@ $(function () {
         //	$('.movie').css({"marginTop": winTop + "px"});
         //}
         var adjustmv = 0;
+        if (ua.isMobile) {
+            adjustmv = -40;
+        }
         if (ua.isTablet) {
             adjustmv = 50;
         }
@@ -6165,7 +6168,7 @@ $(function () {
 
     //サブメニューを開く
     $('.gnav_list03 > a').hover(function () {
-        $('ul.sub_menu').slideToggle("slow");
+        $('ul.sub_menu').slideToggle("fast");
     }, function () { });
 
     $('ul.sub_menu').hover(function () {
@@ -6173,32 +6176,18 @@ $(function () {
         $('ul.sub_menu').slideToggle("fast");
     });
     //サブメニューを開く
-    $('.sub_list1').hover(function () {
-        $('ul.sub_menu1').slideToggle("slow");
-    }, function () { });
-
-    $('ul.sub_menu1').hover(function () {
-    }, function () {
+    $('.sub_list1').on("click", function () {
         $('ul.sub_menu1').slideToggle("fast");
     });
     //サブメニューを開く
-    $('.sub_list2').hover(function () {
-        $('ul.sub_menu2').slideToggle("slow");
-    }, function () { });
-
-    $('ul.sub_menu2').hover(function () {
-    }, function () {
+    $('.sub_list2').on("click", function () {
         $('ul.sub_menu2').slideToggle("fast");
     });
     //サブメニューを開く
-    $('.sub_list3').hover(function () {
-        $('ul.sub_menu3').slideToggle("slow");
-    }, function () { });
-
-    $('ul.sub_menu3').hover(function () {
-    }, function () {
+    $('.sub_list3').on("click", function () {
         $('ul.sub_menu3').slideToggle("fast");
     });
+
 
     $(".nav-toggle").click(function () {
         if ($(this).hasClass("close")) {
