@@ -3766,6 +3766,11 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .test {
     font-size: 12px;
   }
+  .service_sc2 .sc_inner img {
+    width: 120px;
+    margin: auto;
+    display: block;
+  }
   .test2 {
     font-size: 2px;
   }
