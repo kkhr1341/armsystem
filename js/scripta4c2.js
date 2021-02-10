@@ -5862,7 +5862,7 @@ $(function () {
                 }
             });
             $('.gnav_wrap').stop(true, true).fadeIn(1600);
-            TweenMax.staggerTo(".gnav_list li", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.3 }, 0.1);
+            TweenMax.staggerTo(".gnav_list > li", 2.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.3 }, 0.05);
             if ($(".head_btn").hasClass("disp")) {
                 $('.head_logo').stop(true, true).fadeOut(2500);
                 $('.page_tl').stop(true, true).fadeOut(2500);
@@ -6168,7 +6168,7 @@ $(function () {
 
     //サブメニューを開く
     $('.gnav_list03 > a').hover(function () {
-        $('ul.sub_menu').slideToggle("fast");
+        $('ul.sub_menu').slideDown("fast");
     }, function () { });
 
     $('ul.sub_menu').hover(function () {
