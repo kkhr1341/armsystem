@@ -6167,25 +6167,19 @@ $(function () {
     }
 
     //サブメニューを開く
+    $('.gnav_list04 > a').hover(function () {
+        $('ul.sub_menu').slideDown("slow");
+    }, function () { });
     $('.gnav_list03 > a').hover(function () {
-        $('ul.sub_menu').slideDown("fast");
+        $('ul.sub_menu').slideUp("fast");
+    }, function () { });
+    $('.gnav_list05 > a').hover(function () {
+        $('ul.sub_menu').slideUp("fast");
     }, function () { });
 
     $('ul.sub_menu').hover(function () {
     }, function () {
         $('ul.sub_menu').slideToggle("fast");
-    });
-    //サブメニューを開く
-    $('.sub_list1').on("click", function () {
-        $('ul.sub_menu1').slideToggle("fast");
-    });
-    //サブメニューを開く
-    $('.sub_list2').on("click", function () {
-        $('ul.sub_menu2').slideToggle("fast");
-    });
-    //サブメニューを開く
-    $('.sub_list3').on("click", function () {
-        $('ul.sub_menu3').slideToggle("fast");
     });
 
 
