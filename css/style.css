@@ -22,6 +22,10 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   padding: 10px;
 }
 @media screen and (min-width: 769px) {
+  .grid_tpl2 {
+    display: grid;
+    grid-template-columns: auto 150px;
+  }
   .css404 {
     font-size: 15px;
     border-radius: 5px;
@@ -2703,6 +2707,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc1 .sc_inner {
     width: 1100px;
     margin: 0 auto;
+    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fffe, #fff8, #fffe), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
   }
   .service_sc1 .tl_h2 {
     margin-bottom: 50px;
@@ -2792,7 +2797,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     text-align: left;
   }
   .service_sc2 .sc_inner {
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
   }
   .service_sc2 .sc_inner img {
@@ -3766,9 +3771,14 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .test {
     font-size: 12px;
   }
+  .grid_tpl2 {
+    display: grid;
+    grid-template-columns: auto 20%;
+  }
   .service_sc2 .sc_inner img {
     width: 120px;
     margin: auto;
+    margin-top: 0;
     display: block;
   }
   .test2 {
@@ -4028,12 +4038,10 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .gnav_wrap {
     display: none;
-    background: url(../img/common/bg_menu.jpg);
-    background-size: cover;
-    background-position: bottom;
+    background: radial-gradient(#420a, #262a), url(../img/arm/mixkit-sunlight-filtered-though-tall-green-grass-9111-medium_000.jpg);
+    background-size: cover, cover;
     width: 100%;
     height: 100vh;
-    -webkit-overflow-scrolling: touch;
     min-height: 100vh;
     position: fixed;
     top: 0;
@@ -4054,7 +4062,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .gnav_list li a {
     position: relative;
-    color: #8ca0c1;
+    color: #fff;
     text-shadow: 1px 2px 3px #a08b8b;
   }
   .gnav_list li a img {
@@ -6232,6 +6240,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc1 .sc_inner {
     width: 100%;
     margin: 0 auto 125px;
+    background: linear-gradient(90deg, #fffd, #fff6, #fffd), linear-gradient(#fffe, #fff6, #fffe), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
   }
   .service_sc1 .tl_h2 {
     text-align: center;

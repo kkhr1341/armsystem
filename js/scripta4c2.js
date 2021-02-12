@@ -6325,11 +6325,10 @@ $(function () {
 
         //波を描画
         if ($(window).width() >= 769) {
-            drawWave('#fffa', 1, 3, 0);
-            drawWave('#fffa', 1, 2, 0);
-            drawWave('#fffa', 1, 6, 1);
+            drawWave('#fff', 1, 6, 0);
+
         } else {
-            drawWave('#fffa', 1, 6, 0);
+            drawWave('#fff', 1, 3, 0);
         }
 
         // Update the time and draw again
