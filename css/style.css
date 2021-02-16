@@ -136,8 +136,8 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   header.second .header_inner .disp .tl_h1 img {
     display: inline-block;
     background-color: #fffa;
-    box-shadow: 0 0 10px #fff9, 0 0 10px #fff9, 0 0 10px #fff9, 0 0 10px #fff9;
-    border-radius: 10px;
+    box-shadow: 0 0 10px #59c55899, 0 0 10px #fff9, 0 0 10px #fff9, 0 0 10px #fff9;
+    border-radius: 50%;
   }
   header:not(.second) .header_inner {
     background-color: #fffa;
@@ -151,7 +151,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
   }
   .contents_area {
     max-width: 1200px;
@@ -166,8 +166,8 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     display: none;
   }
   .head_logo img {
-    width: 170px;
-    margin-top: -7%;
+    width: 155px;
+    margin-top: -3%;
     margin-left: -19%;
   }
   .head_btn {
@@ -1370,7 +1370,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     min-width: 1200px;
     position: relative;
     height: 90px;
-    background: #f7f9ff;
+    background: #e6ece8;
   }
   .footer_contact:after {
     content: "";
@@ -1399,7 +1399,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .footer_contact_txt {
     width: 770px;
     float: left;
-    background-color: #f7f9ff;
+    background-color: #e6ece8;
     height: 120px;
     padding-top: 27px;
     font-size: 15px;
@@ -2945,21 +2945,30 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
-  .service_sc3 .table_box th {
-    width: 25%;
-  }
   .service_sc3 .table_box td a {
     color: #25671f;
     text-decoration: underline;
   }
   .service_sc3 .table_box th,
   .service_sc3 .table_box td {
-    padding: 10px 20px;
+    padding: 10px;
   }
   .service_sc3 .table_box .table_l th,
   .service_sc3 .table_box .table_l td {
     padding: 25px 20px;
   }
+  .service_sc3 .table_box .box_left {
+    position: relative;
+  }
+  /* .service_sc3 .table_box .box_left::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    background: linear-gradient(85deg, #25671f00, #25671f90, #25671f30, #25671f90, #25671f00);
+    width: 3px;
+  } */
   .service_sc3 .service_list.c4 li {
     margin-right: 60px;
   }
@@ -6548,9 +6557,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc3 .table_box td {
     text-align: left;
   }
-  .service_sc3 .table_box th {
-    width: 25%;
-  }
   .service_sc3 .table_box tr {
     margin-bottom: 20px;
   }
@@ -7677,7 +7683,6 @@ select::-ms-expand {
     z-index: 500;
   }
 }
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhc2UvZGVmYXVsdC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJpQkFhQSxLQUFNLFVBQVUsS0FBTSxZQUFZLElBQUssWUFBWSxlQUFBLENBQUEsMEJBQUEsQ0FBQSxJQUFBLENBQUEsTUFBQSxDQUFBLFNBQUEsQ0FBQSxXQUFBLENBQUEsV0FBMkcsTUFBTSxRQUdwSyxZQUFhLFlBQVksV0FBQSxDQUFBLFdBRUMsUUFBUyxNQUE0QixXQUFSLE9BQVIsT0FBdkMsUUFBUixPQUEwQyxJQUF6QixRQUEwRCxRQUFRLE1BQzJGLFFBQXRKLFFBQVMsTUFBb0csV0FBckksS0FBNkosUUFBNUMsR0FBeEMsSUFBZ0MsR0FBSSxHQUFnRixTQUFoSSxXQUFSLE9BQVIsT0FBMEksS0FBekcsR0FBSSxHQUFJLEdBQUksR0FBSSxHQUFJLEdBQTVGLFFBQTJILEdBQXNFLE9BQTFFLEdBQXJGLElBQXVLLE9BQXRGLEdBQW5CLEVBQTJDLElBQWxJLFFBQXVJLE1BQW9CLEdBQUosR0FBakQsR0FBa0csT0FBTyxFQUFHLFFBQVEsRUFDcEwsUUFBakIsS0FBcEMsR0FBSSxHQUFJLEdBQUksR0FBSSxHQUFJLEdBQTBDLE1BQXBCLElBQWxCLElBQXVCLEtBQWdDLE9BQWxELE1BQXdDLFNBQWtCLFVBQVUsS0FFakcsRUFBRyxJQUFLLGdCQUFnQixLQUV4QixRQUFhLEtBQU0sSUFBVixHQUFlLElBQUssV0FBVyxPQUV4QyxTQUFVLE9BQU8sS0FFakIsTUFBTyxTQUFVLFlBQVksUUFBUyxZQUFZLElBQVEsbUJBQW1CLEtBQU0sY0FBYyxFQUVqRyxNQUFPLGVBQWUsT0FBUSxtQkFBbUIsS0FBTSxnQkFBZ0IsS0FBTSxXQUFXLEtBQXhGLG1CQUNvQixNQUFNLEtBRDFCLGlDQUVrQyxNQUFNLEtBRnhDLHVCQUd3QixNQUFNLEtBSDlCLHVCQUl3QixNQUFNLEtBSjlCLDRCQUs2QixNQUFNLEtBRW5DLElBQUssT0FBTyxLQUFNLFVBQVUsS0FBTSxPQUFPLEtBQU0sZUFBZSxPQUU5RCxLQUFNLFdBQVcsSUFFakIsRUFBRyxnQkFBZ0IsS0FDbkIsUUFBUyxnQkFBZ0IsS0FBTSxNQUFNLFFBQ3JDLEdBQUksb0JBQW9CLFFBQVMsZ0JBQWdCLEtBRWpELEdBQUksb0JBQW9CLFFBRXhCLE1BQU8sZ0JBQWdCLFNBR3ZCLG1CQUFvQixRQUFRIiwiZmlsZSI6ImJhc2UvZGVmYXVsdC5jc3MifQ== */
-
-/*# sourceMappingURL=maps/style.css.map */
+.service_sc3 .table_box th {
+  width: 31%;
+}
