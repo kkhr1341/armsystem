@@ -846,9 +846,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .slider_works .works_list_pc img {
     width: 618px;
   }
-  .slider_works .works_list_pc img:hover {
-    opacity: 0.8;
-  }
   .slider_works .works_list_sp {
     position: absolute;
     top: 195px;

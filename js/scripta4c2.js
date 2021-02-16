@@ -5809,7 +5809,7 @@ $(function () {
                     TweenMax.to(".sc_sp", 1, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 3.6 }, 0.05);
                 }
 
-                $('.loading').delay(1600).fadeOut(2000);
+                $('.loading').delay(2500).fadeOut(2000);
                 $.cookie("flag", true, { expires: 1, path: '/' });
             }
         } else {
