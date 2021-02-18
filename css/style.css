@@ -22,6 +22,9 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   padding: 10px;
 }
 @media screen and (min-width: 769px) {
+  .about_title {
+    font-size: 40px;
+  }
   .grid_tpl2 {
     display: grid;
     grid-template-columns: auto 150px;
@@ -2318,21 +2321,33 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     outline: 0;
   }
   .second_lead {
-    width: 1100px;
+    max-width: 1100px;
     text-align: center;
     font-size: 16px;
     line-height: 34px;
     letter-spacing: 1px;
     margin: 0 auto 115px;
   }
+  .gnav_list04 > a {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  .gnav_list04 > a:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+  }
   .page_nav_inner {
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto 120px;
   }
+  .page_nav_inner .page_nav_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .page_nav_inner .page_nav_list li {
-    float: left;
     display: block;
-    width: 275px;
+    width: 100%;
     box-sizing: border-box;
     border-right: 1px solid #25671f;
     height: 30px;
@@ -2434,15 +2449,31 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     bottom: -2px;
   }
   .aboutus_sc1 {
-    background: url(../img/aboutus/bk-what.jpg);
+    max-width: 1100px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fff, #fff8, #fff), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
     background-size: cover;
-    background-position: top center;
   }
   .aboutus_sc1 .sc_inner {
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 80px 0 40px;
-    position: relative;
+    display: grid;
+    grid-template-columns: auto 36.3%;
+    gap: 50px 0;
+  }
+  .aboutus_sc1 .three_pillars {
+    grid-column: 1/3;
+  }
+  .aboutus_sc1 .three_pillars h3 {
+    color: #0b9d0b;
+    border-bottom: 3px solid #0b9d0b;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  .aboutus_sc1 .three_pillars p {
+    text-indent: 1em;
+    line-height: 2em;
   }
   .aboutus_sc1 .tl_h2 {
     margin-bottom: 50px;
@@ -2458,16 +2489,11 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     font-size: 15px;
     color: #3cb232;
     line-height: 28px;
-    width: 555px;
     margin-bottom: 55px;
   }
-  .aboutus_sc1 .img_box {
-    position: absolute;
-    top: 100px;
-    right: 0;
-  }
   .aboutus_sc1 .img_box img {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
   }
   .aboutus_sc2 .sc_inner {
     width: 1100px;
@@ -2706,7 +2732,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc1 .sc_inner {
     max-width: 1100px;
     margin: 0 auto;
-    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fffe, #fff8, #fffe), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
+    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fff, #fff8, #fff), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
   }
   .service_sc1 .tl_h2 {
     margin-bottom: 50px;
@@ -2801,7 +2827,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc2 .sc_inner {
     max-width: 1100px;
     margin: 0 auto;
-    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fffe, #fff8, #fffe), url(../img/arm/2295835_m.webp);
+    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fff, #fff8, #fff), url(../img/arm/2295835_m.webp);
   }
   .service_sc2 .sc_inner img {
     width: 120px;
@@ -3821,12 +3847,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
     font-family: yu-mincho-pr6n, sans-serif;
   }
-  .pc_display {
-    display: none;
-  }
-  .sp_display {
-    display: block;
-  }
   .head_logo {
     position: fixed;
     top: 5px;
@@ -4031,14 +4051,19 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .tl_h1 img {
     width: 140px;
-    margin-top: 8px !important;
-    margin-left: 8px !important;
   }
   .head_logo img {
     width: 100px;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
     background-color: #fffa;
+  }
+  header.second .header_inner .tl_h1 img {
+    display: none;
+  }
+  header.second .header_inner .disp .tl_h1 img {
+    display: inline-block;
+    background-color: #fffa;
+    box-shadow: 0 0 10px #59c55899, 0 0 10px #fff9, 0 0 10px #fff9, 0 0 10px #fff9;
+    border-radius: 50%;
   }
   .head_btn.disp {
     position: fixed;
@@ -4047,7 +4072,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     display: block;
   }
   .head_btn.disp span {
-    background-color: #000;
+    background-color: #fff;
   }
   .loading {
     width: 100%;
@@ -4241,13 +4266,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     letter-spacing: 0.05em;
     margin-bottom: 78px;
     display: block;
-    white-space: nowrap;
-    text-indent: 100%;
-    overflow: hidden;
-    background: url(../img/top/lead_txt%402x.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 17px;
   }
   .main_v_area .txt_box .en span {
     letter-spacing: 0;
@@ -4331,6 +4349,12 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .top_sc1 .img_box img {
     width: 100%;
   }
+  .top_sc2 {
+    background: url(../img/arm/top_bgr001_sp.webp);
+    background-position: 0 100px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
   .top_sc2 .sc_inner {
     width: 100%;
     margin: 0 auto 140px;
@@ -4345,14 +4369,8 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   }
   .top_sc2 .read_box {
     margin-bottom: 30px;
-    background: url(../img/top/img/bg_service_sp.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
     text-align: center;
     position: relative;
-    background-blend-mode: multiply;
-    background-color: #e7f6fb;
   }
   .top_sc2 .read_box:after {
     content: "";
@@ -5945,6 +5963,11 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     left: 0;
     width: 100%;
   }
+  .aboutus_sc1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #fffe, #fff8, #fffe), linear-gradient(#fff, #fff8, #fff), url(../img/arm/mixkit-aerial-view-of-green-crop-fields-by-the-lake-9674-medium_007.jpg);
+  }
   .aboutus_sc1 .sc_inner {
     width: 100%;
     margin: 0 auto 112px;
@@ -5960,13 +5983,8 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     width: auto;
   }
   .aboutus_sc1 .h2_txt_wrap {
-    background: url(../img/aboutus/bg_tl_whatwedo%402x.png);
-    background-size: cover;
-    background-position: top center;
     padding: 42px 0 6px;
     position: relative;
-    background-blend-mode: multiply;
-    background-color: #9599d23d;
   }
   .aboutus_sc1 .h2_txt_wrap .top_sc4 .read_box:after {
     content: "";
@@ -5979,30 +5997,18 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     background-size: auto 83px;
   }
   .aboutus_sc1 .h2_txt {
-    color: #fff;
     font-size: 28px;
     line-height: 40px;
-    width: 100px;
-    height: 330px;
     display: block;
     margin: 0 auto 0;
     padding: 20px 0;
-    white-space: nowrap;
-    text-indent: 100%;
-    overflow: hidden;
-    background: url(../img/aboutus/h2_tl_whatwedo%402x.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-  }
-  .aboutus_sc1 .h2_txt br {
-    display: none;
+    text-align: center;
   }
   .aboutus_sc1 .txt_box {
-    font-size: 14px;
+    font-size: 11px;
     color: #fff;
     line-height: 24px;
-    width: 89.6%;
+    width: 95%;
     margin: 0 auto 25px;
     color: #1b811b;
     text-align: center;
@@ -7335,6 +7341,12 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .privacy_contact a:hover {
     color: #1b811b;
     text-decoration: underline;
+  }
+  .pc_display {
+    display: none;
+  }
+  .sp_display {
+    display: block;
   }
 }
 
