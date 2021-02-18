@@ -347,10 +347,6 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     text-shadow: 1px 2px 3px #817b98;
     font-size: 25px;
   }
-  .gnav_list li a:hover:after {
-    width: 230px;
-    background-color: #958fac;
-  }
   .gnav_list li:nth-child(1) {
     left: 0;
   }
