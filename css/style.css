@@ -2979,7 +2979,13 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
   .service_sc3 .table_box .box_left {
     position: relative;
   }
-  /* .service_sc3 .table_box .box_left::after {
+  .service_sc3 .table_box .box_left,
+  .service_sc3 .table_box .box_right {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .service_sc3 .table_box .box_left::after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -2987,7 +2993,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     content: "";
     background: linear-gradient(85deg, #25671f00, #25671f90, #25671f30, #25671f90, #25671f00);
     width: 3px;
-  } */
+  }
   .service_sc3 .service_list.c4 li {
     margin-right: 60px;
   }
@@ -6548,6 +6554,17 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+  }
+  .service_sc3 .table_box .box_left {
+    position: relative;
+    width: 100%;
+  }
+  .service_sc3 .table_box .box_right {
+    width: 100%;
+  }
+  .box_left .table_l,
+  .box_right .table_r {
+    width: 100%;
   }
   .service_sc3 .table_box td a {
     color: #25671f;
