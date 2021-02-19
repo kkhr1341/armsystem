@@ -6407,7 +6407,9 @@ $(function () {
         TweenMax.set('.top_sc1 .txt_box', { scale: 1, top: 2, y: 8, opacity: 0 });
         TweenMax.set('.top_sc1 .img_box', { scale: 1, x: -30, opacity: 0 });
         TweenMax.set('.top_sc2 .read_box', { scale: 1, y: 30, opacity: 0 });
-        TweenMax.set('.top_sc2 .txt_box', { scale: 1, x: 40, opacity: 0 });
+        TweenMax.set('.top_sc2 .txt_box', { scale: 1, x: 0, opacity: 0 });
+        TweenMax.set('.works_sc2 li', { scale: 1.1, x: 40, opacity: 0 });
+        TweenMax.set('.works_sc2 h3', { scale: 1, x: 10, opacity: 0 });
         TweenMax.set('.top_sc2 .btn_more', { scale: 1, x: -30, opacity: 0 });
         TweenMax.set('.top_sc3 .read_box', { scale: 1, y: 30, opacity: 0 });
         TweenMax.set('.top_sc3 .txt_box', { scale: 1, x: 40, opacity: 0 });
@@ -6442,6 +6444,8 @@ $(function () {
         var tween20 = TweenMax.staggerTo(".top_sc2 h2.top_tl span", 0.3, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween21 = TweenMax.staggerTo(".top_sc2 .read_box", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         var tween22 = TweenMax.staggerTo(".top_sc2 .txt_box", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
+        var tween90 = TweenMax.staggerTo(".works_sc2 li", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.1 }, 0.02);
+        var tween91 = TweenMax.staggerTo(".works_sc2 h3", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 1 }, 0.05);
         var tween26 = TweenMax.staggerTo(".top_sc2 .btn_more", 0.8, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.05);
         //var tween22 = TweenMax.staggerTo(".top_sc2 .txt_box", 0.8, {x:0,y:0,scale: 1,opacity: 1,ease: Power2.easeOut},0.05);
         var tween23 = TweenMax.staggerTo(".top_sc2 .service_list li", 0.5, { x: 0, y: 0, scale: 1, opacity: 1, ease: Power2.easeOut, delay: 0.5 }, 0.03);
@@ -6484,6 +6488,8 @@ $(function () {
         var scene20 = new ScrollMagic.Scene({ triggerElement: ".top_sc2 h2.top_tl", triggerHook: 'onEnter' }).setTween(tween20).addTo(controller);
         var scene21 = new ScrollMagic.Scene({ triggerElement: ".top_sc2 .read_box", triggerHook: 'onEnter' }).setTween(tween21).addTo(controller);
         var scene22 = new ScrollMagic.Scene({ triggerElement: ".top_sc2 .txt_box", triggerHook: 'onEnter' }).setTween(tween22).addTo(controller);
+        var scene90 = new ScrollMagic.Scene({ triggerElement: ".works_sc2 li", triggerHook: 'onEnter' }).setTween(tween90).addTo(controller);
+        var scene91 = new ScrollMagic.Scene({ triggerElement: ".works_sc2 h3", triggerHook: 'onEnter' }).setTween(tween91).addTo(controller);
         var scene23 = new ScrollMagic.Scene({ triggerElement: ".top_sc2 .service_list li", triggerHook: 'onEnter' }).setTween(tween23).addTo(controller);
         //var scene24 = new ScrollMagic.Scene({triggerElement: ".top_sc2"}).setTween(tween24).addTo(controller);
         var scene25 = new ScrollMagic.Scene({ triggerElement: ".top_sc2 .service_list .img_color", triggerHook: 'onEnter' }).setTween(tween25).addTo(controller);
