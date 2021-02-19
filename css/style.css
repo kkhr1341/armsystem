@@ -4124,7 +4124,7 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     width: 140px;
   }
   .head_logo img {
-    width: 100px;
+    width: 50px;
     background-color: #fffa;
   }
   header.second .header_inner .tl_h1 img {
@@ -6343,6 +6343,19 @@ header:not(.second) .header_inner > div:not(.head_btn) a {
     padding: 10px 10px;
     font-size: 13px;
     line-height: 18px;
+  }
+  .three_pillars {
+    padding: 40px 0;
+  }
+  .three_pillars h3 {
+    font-size: 15px;
+    border-bottom: 2px solid #25671f;
+    width: fit-content;
+  }
+  .three_pillars p {
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
   }
   .service_sc1 .sc_inner {
     width: 100%;
